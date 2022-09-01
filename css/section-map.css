@@ -1,0 +1,144 @@
+.section-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    color: #000000;
+    padding: 62px 0px 83px 0px;
+}
+
+.map__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 83.333%;
+}
+
+.map__title {
+    width: 197px;
+    height: 39px;
+    align-self: flex-start;
+    padding-top: 78px;
+}
+
+.map__title h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.map__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 85px;
+    /* border: 1px solid #000000; */
+}
+
+.map__box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 21.875%;
+    align-self: flex-start;
+    padding-top: 40px;
+    /* border: 1px solid #000000; */
+}
+
+.box__info-adress {
+    display: block;
+    /* border: 1px solid #000000; */
+}
+
+.imfo__adress-title {
+    padding-top: 12px;
+}
+
+.imfo__adress-title h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.info__adress-text {
+    display: block;
+    /* border: 1px solid #000000; */
+    padding-top: 25px;
+}
+
+.info__adress-text a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.box__info-phone {
+    display: block;
+    /* border: 1px solid #000000; */
+}
+
+.info__phone-title {
+    padding-top: 25px;
+}
+
+.info__phone-title h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.info__phone-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.info__phone-text a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.box__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 136px;
+    padding-top: 40px;
+}
+
+.box__social img {
+    width: 32px;
+}
+
+.map__box-image {
+    width: 100%;
+    max-width: 62.5%;
+}
+
+.map__box-image img {
+    width: 100%;
+}
