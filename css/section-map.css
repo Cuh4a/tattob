@@ -7,7 +7,7 @@
     background-color: #FFFFFF;
     margin: 0 auto;
     color: #000000;
-    padding: 62px 0px 83px 0px;
+    padding: 62px 0px 88px 0px;
 }
 
 .map__container {
@@ -32,6 +32,13 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
+}
+
+@media (max-width:1360px) {
+    .map__title h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
 }
 
 .map__box {
@@ -72,6 +79,7 @@
     line-height: 24px;
     color: #000000;
 }
+
 
 
 .info__adress-text {
@@ -141,4 +149,25 @@
 
 .map__box-image img {
     width: 100%;
+}
+@media (max-width:1360px) {
+    .imfo__adress-title h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .info__adress-text a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .info__phone-title h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .info__phone-text a {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }

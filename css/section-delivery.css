@@ -18,11 +18,10 @@
     width: 100%;
     max-width: 83.333%;
     gap: 120px;
-
 }
 
 .delivery__title {
-    width: 194px;
+    width: 12.125%;
     height: 39px;
     align-self: flex-start;
 }
@@ -33,6 +32,13 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
+}
+
+@media (max-width:1360px) {
+    .delivery__title h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
 }
 
 .delivery__box {
@@ -77,4 +83,10 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+}
+@media (max-width:1360px) {
+    .box__item-text p {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
