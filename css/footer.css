@@ -16,12 +16,6 @@
     width: 94.79%;
 }
 
-@media (max-width:1360px) {
-    .footer__container {
-        height: 200px;
-    }
-}
-
 .footer__box {
     display: flex;
     flex-direction: row;
@@ -37,12 +31,7 @@
     align-items: center;
     gap: 50px;
     width: 21.11%;
-}
-
-@media (max-width:1360px) {
-    .footer__box-logo {
-        gap: 30px;
-    }
+    vertical-align: middle;
 }
 
 
@@ -66,16 +55,6 @@
     padding-left: 20px;
 }
 
-@media (max-width:1360px) {
-    .footer__box-social {
-        gap: 20px;
-        padding-left: 0px;
-    }
-
-    .footer__box-social img {
-        width: 30px;
-    }
-}
 
 .footer__box-social img {
     width: 32px;
@@ -85,32 +64,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    max-width: 400px;
+    width: 23.75%;
     padding: 3px 0px 0px 16px;
 }
 
-@media (max-width:1360px) {
-    .box__info-location {
-        max-width: 200px;
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .box__info-time {
-        max-width: 120px;
-        font-size: 12px;
-        line-height: 14px;
-    }
-}
 
 .box__info-location {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    max-width: 230px;
+    width: 66%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -126,8 +90,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    max-width: 140px;
+    width: 35%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -136,4 +99,154 @@
     color: #FFFFFF;
     gap: 5px;
     padding: 3px 0px 0px 15px;
+}
+
+@media (max-width:1800px) {
+    .footer__box-info {
+        width: 27%;
+    }
+}
+
+@media (max-width:1600px) {
+    .footer__box-logo {
+        gap: 3.12vw;
+    }
+
+    .footer__container {
+        height: 180px;
+    }
+
+    .box__logo {
+        width: 51%;
+        padding-top: 0.62vw;
+    }
+
+    .box__logo img {
+        width: 100%;
+    }
+
+    .footer__box-social {
+        gap: 1.25vw;
+        padding-left: 1.25vw;
+    }
+
+
+    .footer__box-social a>img {
+        width: 2vw;
+    }
+
+    .footer__box-info {
+        width: 23%;
+        padding: 0.18vw 0px 0px 1vw;
+    }
+
+
+    .box__info-location img {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .box__info-time img {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .box__info-location {
+        font-size: 0.7vw;
+        line-height: 1.06vw;
+        gap: 0.31vw;
+        padding: 0.31vw 0px 0px 0px;
+    }
+
+    .box__info-time {
+        font-size: 0.7vw;
+        line-height: 1.06vw;
+        gap: 0.31vw;
+        padding: 0.18vw 0px 0px 0.94vw;
+    }
+}
+
+@media (max-width:1360px) {
+    .footer__container {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:1024px) {
+    .box__info-location {
+        font-size: 0.8vw;
+        line-height: 1.06vw;
+    }
+
+    .box__info-time {
+        font-size: 0.8vw;
+        line-height: 1.06vw;
+    }
+
+    .footer__box-info {
+        width: 27%;
+        padding: 0vw 0px 2vw 1vw;
+    }
+
+    .box__logo {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__box-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .box__logo {
+        width: 80%;
+        padding-top: 0px;
+    }
+
+    .footer__box-social {
+        gap: 15px;
+        padding: 0;
+    }
+
+    .footer__box-social a>img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__box-info {
+        width: 35%;
+        padding-top: 3vw;
+    }
+
+    .box__info-location {
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+    }
+
+    .box__info-time {
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+    }
+}
+
+@media (max-width:480px) {
+    .box__logo img {
+        width: 120px;
+        vertical-align: middle;
+    }
+
+    .box__logo {
+        width: 120px;
+        vertical-align: middle;
+    }
 }

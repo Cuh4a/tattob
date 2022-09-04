@@ -8,6 +8,7 @@
     margin: 0 auto -1px auto;
     color: #000000;
     padding: 62px 0px 62px 0px;
+    min-height: 100vh;
 }
 
 .delivery__container {

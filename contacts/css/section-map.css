@@ -8,6 +8,7 @@
     margin: 0 auto;
     color: #000000;
     padding: 62px 0px 88px 0px;
+    min-height: 100vh;
 }
 
 .map__container {

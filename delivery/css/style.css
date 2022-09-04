@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600,700,&display=swap);
 @import './header.css';
 @import './footer.css';
-@import './section-menu.css';
+@import './section-delivery.css';
 
 * {
     padding: 0px;
@@ -41,13 +41,14 @@ h6 {
     font-size: inherit;
 }
 
-html,
-body {
-    height: 100%;
-    background-color: #FFFFFF;
+html {
     font-size: 20px;
-    color: #FFFFFF;
-    font-family: 'Montserrat'sans-serif;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat' sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #000000;
